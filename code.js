@@ -29,10 +29,17 @@ let popupInfo = `
     <button id="stop-button" class="stop">Stop</button>
     <label>Speed Level:</label>
     <select id="choice" class="main">
-        <option value="no-refresh">No Refresh</option>
-        <option value="auto-refresh">Auto Refresh</option>
+        <option value="answer">Auto Answer</option>
+        <option value="feedback">Give Feedback</option>
     </select>
     <script>
+        choice.addEventListener('onchange', function() {
+            if(choice.value === 'answer') {
+            
+            } else {
+
+            }
+        });
     </script>
   </body>
 </html>
